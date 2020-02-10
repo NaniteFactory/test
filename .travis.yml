@@ -40,9 +40,9 @@ addons:
 # services:
 #   - docker
 before_install:
-  - cd $HOME
-  - mv $GOPATH/src/github.com/NaniteFactory $GOPATH/src/github.com/nanitefactory # lowercase 
-  - cd $GOPATH/src/github.com/nanitefactory/test
+#  - cd $HOME
+#  - mv $GOPATH/src/github.com/NaniteFactory $GOPATH/src/github.com/nanitefactory # lowercase 
+#  - cd $GOPATH/src/github.com/nanitefactory/test
 install:
 #  - go get -t -v ./...
 script:
